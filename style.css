@@ -1,0 +1,51 @@
+body{
+    background-color: #6DE1D2;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+@font-face{
+    font-family: cool;
+    src: url(./Font/Angeline\ Vintage_Demo.ttf);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #F75A5A;
+    font-family: style;
+    src: url(./Font/Angeline\ Vintage_Demo.ttf);
+
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    color: #FFA955;
+    text-shadow: black;
+    border-color: black;
+    font-size: 2rem;
+    font-family: style;
+    src: url(./Font/Belastine.otf);
+
+}
+@font-face{
+    font-family: style;
+    src: url(./Font/Belastine.otf);
+}
+button {
+    background-color: #FFD63A;
+    color: rgb(245, 82, 82);
+    padding: 8px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+}
+.school{
+    font-family: cool;
+    color: #F75A5A;
+}
